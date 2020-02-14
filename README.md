@@ -11,6 +11,7 @@ This project is an independent project with only practice proposes.
 ### Dependencies
 
 * express
+* body-parser
 
 ### Executing program
 
@@ -24,13 +25,6 @@ npm install
 
 ```
 npm run server
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
 ```
 
 ## Authors
