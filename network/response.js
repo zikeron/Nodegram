@@ -6,10 +6,13 @@ exports.success = (req, res, message, statusCode) => {
     });
 };
 
-exports.fail = (req, res, message, statusCode) => {
+exports.fail = (req, res, message, statusCode, error) => {
+
     res.status(statusCode || 500).send({
         status: 1,
         error: '',
         body: message,
     });
+
+    console.error(error)
 };
